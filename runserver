@@ -1,19 +1,9 @@
-rm -rf ./node_modules
-rm package-lock.json
-
-# https://github.com/babel/babel/issues/8599
-
-# npm install -D babel-loader @babel/core @babel/preset-env webpack
-
-npm install -D \
-    webpack \
-    webpack-dev-server \
-    webpack-cli \
-    babel-loader@latest \
-    @babel/core@latest \
-    @babel/preset-env@latest \
-    @babel/preset-react \
-    html-webpack-plugin \
-    react react-dom
+rm -rf \
+   package-lock.json \
+   node_modules
+   
+npm install
+npm audit fix
+npm audit fix --force
 
 npm start

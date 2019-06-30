@@ -1,3 +1,5 @@
+react-scripts makes run much easier!
+
 reference:
   1. Can comments be used in JSON?
      https://stackoverflow.com/questions/244777/can-comments-be-used-in-json
